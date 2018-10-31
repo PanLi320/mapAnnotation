@@ -1,0 +1,58 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0;
+  outline: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+
+html body {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  position: relative;
+  color: #667280;
+  line-height: 1.6;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", simsun, "宋体", OpenSans, Verdana, Arial, tahoma, Helvetica, sans-serif; }
+
+.btn.type-default {
+  position: absolute;
+  width: 10%;
+  height: 50%; }
+
+#infoArea {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  right: 0%; }
+
+#mapArea {
+  position: absolute;
+  width: 75%;
+  height: 100%; }
+
+#zoom-ctrl {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px; }
+
+#zoom-ctrl span {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  width: 40px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  background: #333;
+  color: #fff; }
+
+#zoom-ctrl span:hover {
+  background: #fff;
+  color: #333; }
